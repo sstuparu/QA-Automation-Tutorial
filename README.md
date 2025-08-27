@@ -14,12 +14,10 @@ pip install selenium robotframework robotframework-seleniumlibrary robotframewor
 ### ---
 sudo apt install chromium-browser chromium-chromedriver -y
 sudo apt install python3 python3-tk -y
-python3.12 --version
-python3.12 -c "import tkinter; tkinter._test()"
-sudo apt install python3.12-venv
+sudo apt install python3-venv
 cd ~
-python3.12 -m venv venv312
-source venv312/bin/activate
+python3 -m venv venv_py
+source venv_py/bin/activate
 pip install selenium robotframework robotframework-seleniumlibrary robotframework-tidy pyyaml
 ### ---
 ```
